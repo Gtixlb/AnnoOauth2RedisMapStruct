@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oauth2-server" />
+        <module name="Redis" />
+        <module name="Annotation" />
+        <module name="Alibaba" />
+      </profile>
+      <profile name="Annotation profile for mapstruct" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="mapstruct.defaultComponentModel" value="spring" />
+        <module name="MapStruct" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Alibaba" options="-parameters" />
+      <module name="Annotation" options="-parameters" />
+      <module name="MapStruct" options="-parameters -Amapstruct.defaultComponentModel=spring" />
+      <module name="Redis" options="-parameters" />
+      <module name="oauth2-server" options="-parameters" />
+    </option>
+  </component>
+</project>

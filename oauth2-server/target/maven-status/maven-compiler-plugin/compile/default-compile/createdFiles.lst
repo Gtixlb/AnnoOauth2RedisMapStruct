@@ -1,0 +1,13 @@
+com\macro\cloud\service\impl\ClientDetailServiceImpl$1.class
+com\macro\cloud\controller\UserController.class
+com\macro\cloud\config\SecurityConfig.class
+com\macro\cloud\config\RedisTokenStoreConfig.class
+com\macro\cloud\domain\User.class
+com\macro\cloud\service\impl\UserServiceImpl.class
+com\macro\cloud\config\ResourceServerConfig.class
+com\macro\cloud\Oauth2ServerApplication.class
+com\macro\cloud\service\impl\ClientDetailServiceImpl$3.class
+com\macro\cloud\domain\ClientDetail.class
+com\macro\cloud\config\AuthorizationServerConfig.class
+com\macro\cloud\service\impl\ClientDetailServiceImpl$2.class
+com\macro\cloud\service\impl\ClientDetailServiceImpl.class

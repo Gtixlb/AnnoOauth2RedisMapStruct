@@ -1,0 +1,11 @@
+server:
+  port: 9401
+spring:
+  application:
+    name: oauth2-service
+  redis:
+    host: 10.173.173.200
+    port: 6380
+    password: Leelen@123
+    timeout: 10000
+    database: 10
